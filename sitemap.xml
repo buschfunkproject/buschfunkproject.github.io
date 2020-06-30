@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://buschfunkproject.github.io/</loc>
     <lastmod>2020-05-07T17:47:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://buschfunkproject.github.io/contact/</loc>
     <lastmod>2020-05-07T17:47:36+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://buschfunkproject.github.io/about/</loc>
     <lastmod>2020-05-07T16:53:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/architecture/</loc>
+    <loc>https://buschfunkproject.github.io/architecture/</loc>
     <lastmod>2020-05-07T16:53:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/code/</loc>
+    <loc>https://buschfunkproject.github.io/code/</loc>
     <lastmod>2020-05-07T16:53:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/media/</loc>
+    <loc>https://buschfunkproject.github.io/media/</loc>
     <lastmod>2020-05-07T16:53:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://buschfunkproject.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://buschfunkproject.github.io/tags/</loc>
   </url>
   
 </urlset>
