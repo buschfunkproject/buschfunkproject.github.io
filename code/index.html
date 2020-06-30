@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Code - The Buschfunk Project</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<link rel="stylesheet" href="http://example.org/css/bf.css">
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <a class="logo__link" href="/" title="The Buschfunk Project" rel="home">
+                <div class="logo__image"><img src="/images/bf-logo2.png" alt="" style="width: 100%;" /> </div>
+                <div>
+                    <div class="logo__title">The Buschfunk Project</div>
+                    <div class="logo__tagline">Offline Networking for Everyone</div>
+                </div>
+            </a>
+        </div>
+        
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/architecture">
+				
+				<span class="menu__text">Architecture</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/code">
+				
+				<span class="menu__text">Code</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/media">
+				
+				<span class="menu__text">Media</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/contact">
+				
+				<span class="menu__text">Contact</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+    </div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Code</h1>
+			
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#firmwares">Firmwares</a></li>
+        <li><a href="#lora">LoRa</a></li>
+        <li><a href="#dtn">DTN</a></li>
+        <li><a href="#buschfunk-raspberry-pi-related">Buschfunk Raspberry Pi Related</a></li>
+        <li><a href="#misc">Misc</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<h3 id="firmwares">Firmwares</h3>
+<ul>
+<li>
+<p><a href="https://github.com/gh0st42/rf95modem">Tamborine - rf95modem firmware</a> Basic firmware for ESP32 and Cortex M0 based boards to make LoRa functionality available via USB-Serial, WiFi and BLE.</p>
+</li>
+<li>
+<p><a href="">Bongo - ESP32 T-Beam Image</a> <em>not yet released</em></p>
+</li>
+<li>
+<p><a href="">Conga - Raspberry Pi Image</a> <em>not yet released</em></p>
+</li>
+</ul>
+<h3 id="lora">LoRa</h3>
+<ul>
+<li>
+<p><a href="https://github.com/gh0st42/rf95modem">rf95modem firmware</a> Basic firmware for ESP32 and Cortex M0 based boards to make LoRa functionality available via USB-Serial, WiFi and BLE.</p>
+</li>
+<li>
+<p><a href="https://github.com/gh0st42/rf95modem-rs">rf95modem-rs rust interface</a> A simple wrapper to use a rf95modem device from macos/linux that is attached via usb.</p>
+</li>
+<li>
+<p><a href="https://github.com/gh0st42/rf95dragino">rf95dragino <em>expiremental</em></a> A compability wrapper to make the <em>Dragino LoRa+GPS Hat</em> usable on Raspbian in a more or less compatible way to rf95modem.</p>
+</li>
+</ul>
+<h3 id="dtn">DTN</h3>
+<ul>
+<li><a href="https://github.com/dtn7/bp7-rs">bp7</a>
+Raw encoding/decoding for DTN bundles. Portable and also usable as a wasm module.</li>
+<li><a href="https://github.com/dtn7/dtn7-rs">dtn7</a>
+A DTN daemon and command line helpers for POSIX systems.</li>
+<li><a href="https://github.com/dtn7/dtn7-plus-rs">dtn7-plus</a>
+A library with extensions for DTN such as short message and location support plus code for custom clients.</li>
+</ul>
+<h3 id="buschfunk-raspberry-pi-related">Buschfunk Raspberry Pi Related</h3>
+<ul>
+<li><a href="https://github.com/buschfunkproject/pi-helpers">pi-helpers</a> Various helper scripts for Raspbian to easily setup access points or mesh networks.</li>
+<li><a href="https://github.com/buschfunkproject/configsys">configsys</a> Script systems to make Raspbian images more configurable via the FAT32 <code>/boot</code> partition. Helps reconfiguring the system in the field from non-linux systems.</li>
+</ul>
+<h3 id="misc">Misc</h3>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 The Buschfunk Project.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

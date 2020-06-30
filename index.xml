@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Buschfunk Project</title>
+    <link>http://example.org/</link>
+    <description>Recent content on The Buschfunk Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 May 2020 17:47:36 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Thu, 07 May 2020 17:47:36 +0200</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>Chat, discuss and collaborate:</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Thu, 07 May 2020 16:53:03 +0200</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>A brief overview of the project and its goals can be found in this short video.
+Defintion of Buschfunk   German slang for a gossip network A system used by undeveloped societies in remote regions for communication over long distances, such as drum sounds, word-of-mouth relay, or smoke signals.  Similar bush telegraph
+ About the Project We want to provide free and open-source solutions to serve as a foundation for communication technology in challenged environments.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>http://example.org/architecture/</link>
+      <pubDate>Thu, 07 May 2020 16:53:03 +0200</pubDate>
+      
+      <guid>http://example.org/architecture/</guid>
+      <description>All components of the funky Buschfunk Project orchestra are briefly described in the following.
+Drumsticks - Apps Apps can be easily written an deployed as Progressive Web Applications (PWA) using our core libraries as Web Assembly modules or deployed as native code directly on devices.
+Tomborine - LoRa Companion Device These small devices can be used stand alone to receive data such as text messages but can also be paired with a smartphone, tablet or laptop using Bluetooth Low Energy (BLE) to increase communication range.</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>http://example.org/code/</link>
+      <pubDate>Thu, 07 May 2020 16:53:03 +0200</pubDate>
+      
+      <guid>http://example.org/code/</guid>
+      <description>Firmwares   Tamborine - rf95modem firmware Basic firmware for ESP32 and Cortex M0 based boards to make LoRa functionality available via USB-Serial, WiFi and BLE.
+  Bongo - ESP32 T-Beam Image not yet released
+  Conga - Raspberry Pi Image not yet released
+  LoRa   rf95modem firmware Basic firmware for ESP32 and Cortex M0 based boards to make LoRa functionality available via USB-Serial, WiFi and BLE.</description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>http://example.org/media/</link>
+      <pubDate>Thu, 07 May 2020 16:53:03 +0200</pubDate>
+      
+      <guid>http://example.org/media/</guid>
+      <description>Buschfunk Project Overview   DTN Explained   Buschfunk Project Architecture   </description>
+    </item>
+    
+  </channel>
+</rss>

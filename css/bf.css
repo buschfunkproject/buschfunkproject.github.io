@@ -1,0 +1,22 @@
+.logo__image {
+    width: 128px;
+    float: left;
+    padding-right: 16px;
+}
+
+.logo__title {
+    width: 640px;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.menu__list { 
+    background: #009900;
+}
+
+.footer {    
+    color: #222;
+    background: #009900;
+}
